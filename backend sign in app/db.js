@@ -9,7 +9,7 @@ const studentSchema = mongoose.Schema({
   mssg:String
 
 });
-const info =mongoose.model('todos',studentSchema);
+const info =mongoose.model('info',studentSchema);
 
 module.exports = {
    info
